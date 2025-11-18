@@ -1,0 +1,131 @@
+Markdown Cheatsheet (VS Code)
+1. Headings
+# H1
+## H2
+### H3
+#### H4
+
+2. Text Formatting
+*italic* or _italic_
+**bold**
+***bold italic***
+~~strikethrough~~
+`inline code`
+
+3. Lists
+Unordered
+- Item
+  - Subitem
+
+Ordered
+1. First
+2. Second
+
+Task List
+- [ ] Not done
+- [x] Done
+
+4. Code Blocks
+\```python
+print("Hello")
+\```
+
+\```sql
+SELECT * FROM table;
+\```
+
+5. Links
+[OpenAI](https://openai.com)
+<https://google.com>
+
+6. Images
+![alt text](image.png)
+![URL image](https://example.com/img.png)
+
+7. Blockquotes
+> This is a quote.
+>> Nested quote.
+
+8. Horizontal Rule
+---
+
+9. Tables
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| A    | B    | C    |
+| 1    | 2    | 3    |
+
+Alignment
+| Left | Center | Right |
+|:-----|:------:|------:|
+| a    | b      | c     |
+
+10. Footnotes
+Here is a footnote.[^1]
+
+[^1]: This is the footnote text.
+
+11. Math (VS Code + Markdown Preview Enhanced)
+Inline:
+$E = mc^2$
+
+Block:
+$$
+\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}
+$$
+
+12. Callouts / Alerts (GitHub-style)
+> [!NOTE]
+> This is a note.
+
+> [!WARNING]
+> This is a warning.
+
+> [!TIP]
+> Helpful tip.
+
+13. Emoji (GitHub)
+:smile:
+:rocket:
+
+14. Escape Characters
+
+Add \ before symbols:
+
+\*not italic\*
+
+15. Collapsible Section (GitHub)
+<details>
+<summary>Click to expand</summary>
+
+Hidden content here.
+
+</details>
+
+16. Diagrams (Mermaid)
+
+VS Code supports Mermaid via preview extensions.
+
+```mermaid
+graph LR
+  A --> B
+  B --> C
+
+
+---
+
+## **17. Checkboxes in GitHub Issues**
+```md
+- [ ] Task A
+- [x] Task B
+
+18. Highlight (GFM)
+==highlight==
+
+19. Superscript & Subscript
+H~2~O
+x^2^
+
+20. Definition Lists (GFM)
+Term
+: Definition text
