@@ -55,11 +55,11 @@ jupyter notebook Assignment/ANN/ANN_scratch_implementation.ipynb
 ### Convolutional Neural Network (CNN)
 
 ```bash
-jupyter notebook 
+jupyter notebook Assignment/CNN/CNN_scratch_implementation.ipynb
 ```
 
 ### Recurrent Neural Network (RNN)
 
 ```bash
-jupyter notebook 
+jupyter notebook Assignment/RNN/RNN_scratch_implementation.ipynb
 ```
