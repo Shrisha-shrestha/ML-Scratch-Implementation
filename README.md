@@ -26,20 +26,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Implementations
-
-### Artificial Neural Network
-
-Basic feedforward neural network with fully connected layers, supporting backpropagation and gradient descent optimization.
-
-### Convolutional Neural Network
-
-CNN implementation with convolutional layers, pooling operations, and flattening for classification tasks.
-
-### Recurrent Neural Network
-
-RNN implementation with LSTM cells for sequential data processing and time-series predictions.
-
 ## Running the Code
 
 ## Install Jupyter if not already installed
