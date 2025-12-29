@@ -34,7 +34,7 @@ Basic feedforward neural network with fully connected layers, supporting backpro
 
 ### Convolutional Neural Network
 
-CNN implementation with convolutional layers, pooling operations, and flattening for image classification tasks.
+CNN implementation with convolutional layers, pooling operations, and flattening for classification tasks.
 
 ### Recurrent Neural Network
 
